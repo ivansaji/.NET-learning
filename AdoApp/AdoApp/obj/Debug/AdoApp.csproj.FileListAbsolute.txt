@@ -1,0 +1,7 @@
+C:\Users\CyberFreak\Documents\Projects\.NET learning\AdoApp\AdoApp\bin\Debug\AdoApp.exe.config
+C:\Users\CyberFreak\Documents\Projects\.NET learning\AdoApp\AdoApp\bin\Debug\AdoApp.exe
+C:\Users\CyberFreak\Documents\Projects\.NET learning\AdoApp\AdoApp\bin\Debug\AdoApp.pdb
+C:\Users\CyberFreak\Documents\Projects\.NET learning\AdoApp\AdoApp\obj\Debug\AdoApp.csprojAssemblyReference.cache
+C:\Users\CyberFreak\Documents\Projects\.NET learning\AdoApp\AdoApp\obj\Debug\AdoApp.csproj.CoreCompileInputs.cache
+C:\Users\CyberFreak\Documents\Projects\.NET learning\AdoApp\AdoApp\obj\Debug\AdoApp.exe
+C:\Users\CyberFreak\Documents\Projects\.NET learning\AdoApp\AdoApp\obj\Debug\AdoApp.pdb

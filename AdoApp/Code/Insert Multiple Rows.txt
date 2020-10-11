@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -27,23 +27,22 @@ namespace AdoApp
                 //Opening Connection
                 con.Open();
 
-                // writing sql query  
-                SqlCommand cm = new SqlCommand("Select * from student", con);
-                // Executing the SQL query  
-                SqlDataReader sdr = cm.ExecuteReader();
-                // Iterating Data  
-                while (sdr.Read())
-                {
-                    Console.WriteLine(sdr["id"] + " " + sdr["name"] + " " + sdr["email"]); // Displaying Record  
-                }
+                //writing sql query
+                SqlCommand cm = new SqlCommand("insert into student (id, name, email, join_date)values('102', 'Donald Trump', 'donald@example.com', '2/12/2017')", con);
+                //Executing the Query
+                cm.ExecuteNonQuery();
+                //writing sql query
+                cm = new SqlCommand("insert into student (id, name, email, join_date)values('103', 'Konald Trump', 'konald@example.com', '3/12/2017')", con);
+                //Executing the Query
+                cm.ExecuteNonQuery();
 
                 //Displaying a message
-                Console.WriteLine("Printed Successfully"); 
+                Console.WriteLine("Inserted Successfully"); 
                 Console.ReadKey();
             }
             catch(Exception e)
             {
-                Console.WriteLine("Printing failed    " + e);
+                Console.WriteLine("Insertion failed    " + e);
                 Console.ReadKey();
             }
             //closing Connection
