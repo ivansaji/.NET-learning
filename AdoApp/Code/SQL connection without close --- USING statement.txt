@@ -1,0 +1,25 @@
+//Using block is used to close the connection automatically. We don't need to call close () method explicitly, using block do this for ours implicitly when the code exits the block.
+
+using System;  
+using System.Data.SqlClient;  
+namespace AdoNetConsoleApplication  
+{  
+    class Program  
+    {  
+        static void Main(string[] args)  
+        {  
+            new Program().Connecting();  
+        }  
+        public void Connecting()  
+        {  
+            using (  
+                     // Creating Connection  
+                     SqlConnection con = new SqlConnection("data source=.; database=student; integrated security=SSPI")  
+                 )  
+            {  
+                con.Open();  
+                Console.WriteLine("Connection Established Successfully");  
+            }  
+        }  
+    }  
+}  
