@@ -17,9 +17,11 @@ namespace FormApp
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnStrings_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("My First Message","Message", MessageBoxButtons.YesNo,MessageBoxIcon.Hand);
+            string firstName;
+            firstName = textBox1.Text;
+            MessageBox.Show("Your name is "+firstName, firstName);
         }
     }
 }
