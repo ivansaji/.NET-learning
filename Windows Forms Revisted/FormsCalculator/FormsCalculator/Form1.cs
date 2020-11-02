@@ -15,6 +15,7 @@ namespace FormsCalculator
         public Form1()
         {
             InitializeComponent();
+            textBox.Clear();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -23,6 +24,9 @@ namespace FormsCalculator
         }
         //Calculator Part Begins
         string txt=null;
+        string exp = null;
+        string[] numbers_string;
+        float firstnum,secondnum,result;
         //TextBox
         private void textBox_TextChanged(object sender, EventArgs e)
         {
@@ -31,16 +35,23 @@ namespace FormsCalculator
 
         private void textboxstate()
         {
-            textBox.Text = txt;
             textBox.Focus();
+            textBox.Text = txt;
         }
-
+        private void splitexp(string y,char x)
+        {
+            numbers_string = y.Split(x);
+            firstnum = float.Parse(numbers_string[0]);
+            secondnum = float.Parse(numbers_string[1]);
+            
+        }
         //Operation Buttons
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
             txt = txt + '+';
             textboxstate();
+
         }
 
         private void btnSub_Click(object sender, EventArgs e)
@@ -51,7 +62,7 @@ namespace FormsCalculator
 
         private void btnMultiply_Click(object sender, EventArgs e)
         {
-            txt = txt + 'x';
+            txt = txt + '*';
             textboxstate();
         }
 
@@ -63,9 +74,37 @@ namespace FormsCalculator
 
         private void btnEqual_Click(object sender, EventArgs e)
         {
+            exp = textBox.Text;
+            if (exp.Contains('+'))
+            {
+                splitexp(exp, '+');
+                result = firstnum + secondnum;
+            }
+            if (exp.Contains('-'))
+            {
+                splitexp(exp, '-');
+                result = firstnum - secondnum;
+            }
+            if (exp.Contains('*'))
+            {
+                splitexp(exp, '*');
+                result = firstnum * secondnum;
+            }
+            if (exp.Contains('/'))
+            {
+                splitexp(exp, '/');
+                result = firstnum / secondnum;
+            }
 
+            textBox.Clear();
+            textBox.Text = result.ToString();
         }
 
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            textBox.Clear();
+            txt = null;
+        }
         private void btnDot_Click(object sender, EventArgs e)
         {
             txt = txt + '.';
@@ -120,6 +159,7 @@ namespace FormsCalculator
             textboxstate();
         }
 
+ 
         private void btnEight_Click(object sender, EventArgs e)
         {
             txt = txt + '8';
