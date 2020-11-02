@@ -17,11 +17,17 @@ namespace FormApp
             InitializeComponent();
         }
 
-        private void btnStrings_Click(object sender, EventArgs e)
+        private void btnAnswer_Click(object sender, EventArgs e)
         {
-            string firstName;
-            firstName = textBox1.Text;
-            MessageBox.Show("Your name is "+firstName, firstName);
+            int firstTextBoxNumber;
+            
+            int answer;
+
+            firstTextBoxNumber = int.Parse(tbFirstNumber.Text);
+            int secondTextBoxNumber = int.Parse(tbSecondNumber.Text);
+            answer = firstTextBoxNumber + secondTextBoxNumber;
+
+            MessageBox.Show(answer.ToString());
         }
     }
 }
