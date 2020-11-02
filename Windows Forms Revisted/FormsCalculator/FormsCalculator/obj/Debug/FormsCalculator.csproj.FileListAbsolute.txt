@@ -2,9 +2,9 @@ C:\Users\CyberFreak\Documents\Projects\.NET learning\Windows Forms Revisted\Form
 C:\Users\CyberFreak\Documents\Projects\.NET learning\Windows Forms Revisted\FormsCalculator\FormsCalculator\bin\Debug\FormsCalculator.exe
 C:\Users\CyberFreak\Documents\Projects\.NET learning\Windows Forms Revisted\FormsCalculator\FormsCalculator\bin\Debug\FormsCalculator.pdb
 C:\Users\CyberFreak\Documents\Projects\.NET learning\Windows Forms Revisted\FormsCalculator\FormsCalculator\obj\Debug\FormsCalculator.csprojAssemblyReference.cache
-C:\Users\CyberFreak\Documents\Projects\.NET learning\Windows Forms Revisted\FormsCalculator\FormsCalculator\obj\Debug\FormsCalculator.Form1.resources
 C:\Users\CyberFreak\Documents\Projects\.NET learning\Windows Forms Revisted\FormsCalculator\FormsCalculator\obj\Debug\FormsCalculator.Properties.Resources.resources
 C:\Users\CyberFreak\Documents\Projects\.NET learning\Windows Forms Revisted\FormsCalculator\FormsCalculator\obj\Debug\FormsCalculator.csproj.GenerateResource.cache
 C:\Users\CyberFreak\Documents\Projects\.NET learning\Windows Forms Revisted\FormsCalculator\FormsCalculator\obj\Debug\FormsCalculator.csproj.CoreCompileInputs.cache
 C:\Users\CyberFreak\Documents\Projects\.NET learning\Windows Forms Revisted\FormsCalculator\FormsCalculator\obj\Debug\FormsCalculator.exe
 C:\Users\CyberFreak\Documents\Projects\.NET learning\Windows Forms Revisted\FormsCalculator\FormsCalculator\obj\Debug\FormsCalculator.pdb
+C:\Users\CyberFreak\Documents\Projects\.NET learning\Windows Forms Revisted\FormsCalculator\FormsCalculator\obj\Debug\FormsCalculator.Karthika_kanakk_kooti_yenthram.resources

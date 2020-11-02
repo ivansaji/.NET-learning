@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace FormsCalculator
 {
-    public partial class Form1 : Form
+    public partial class Karthika_kanakk_kooti_yenthram : Form
     {
-        public Form1()
+        public Karthika_kanakk_kooti_yenthram()
         {
             InitializeComponent();
             textBox.Clear();

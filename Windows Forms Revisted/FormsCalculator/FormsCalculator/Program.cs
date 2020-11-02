@@ -16,7 +16,7 @@ namespace FormsCalculator
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Karthika_kanakk_kooti_yenthram());
         }
     }
 }
