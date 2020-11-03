@@ -159,7 +159,6 @@ namespace FormsCalculator
             textboxstate();
         }
 
- 
         private void btnEight_Click(object sender, EventArgs e)
         {
             txt = txt + '8';
@@ -171,5 +170,24 @@ namespace FormsCalculator
             txt = txt + '9';
             textboxstate();
         }
+
+        //Menu Strip
+
+
+        private void mnuNew_Click(object sender, EventArgs e)
+        {
+            //learn next
+
+        }
+        private void mnuClear_Click(object sender, EventArgs e)
+        {
+            textBox.Clear();
+            txt = null;
+            firstnum = 0;
+            secondnum = 0;
+            result = 0;
+
+        }
+
     }
 }
