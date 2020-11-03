@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace FormsCalculator
 {
-    public partial class Karthika_kanakk_kooti_yenthram : Form
+    public partial class calcapp : Form
     {
-        public Karthika_kanakk_kooti_yenthram()
+        public calcapp()
         {
             InitializeComponent();
             textBox.Clear();
@@ -171,14 +171,46 @@ namespace FormsCalculator
             textboxstate();
         }
 
+
+
         //Menu Strip
 
 
         private void mnuNew_Click(object sender, EventArgs e)
         {
             //learn next
+            Application.Restart();
 
         }
+
+        private void mnuCut_Click(object sender, EventArgs e)
+        {
+            if(textBox.SelectedText != "")
+            {
+                textBox.Cut();
+            }
+        }
+
+        private void mnuCopy_Click(object sender, EventArgs e)
+        {
+            if(textBox.SelectedText != "")
+            {
+                textBox.Copy();
+            }
+        }
+
+        private void mnuPaste_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void undoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            textBox.Undo();
+        }
+
+
+
         private void mnuClear_Click(object sender, EventArgs e)
         {
             textBox.Clear();
@@ -187,6 +219,13 @@ namespace FormsCalculator
             secondnum = 0;
             result = 0;
 
+        }
+        private void quitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if(MessageBox.Show("Do you Really want to Quit?", "Exit", MessageBoxButtons.OKCancel) == DialogResult.OK)
+            {
+                Application.Exit();
+            }
         }
 
     }

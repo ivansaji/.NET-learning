@@ -7,4 +7,4 @@ C:\Users\CyberFreak\Documents\Projects\.NET learning\Windows Forms Revisted\Form
 C:\Users\CyberFreak\Documents\Projects\.NET learning\Windows Forms Revisted\FormsCalculator\FormsCalculator\obj\Debug\FormsCalculator.csproj.CoreCompileInputs.cache
 C:\Users\CyberFreak\Documents\Projects\.NET learning\Windows Forms Revisted\FormsCalculator\FormsCalculator\obj\Debug\FormsCalculator.exe
 C:\Users\CyberFreak\Documents\Projects\.NET learning\Windows Forms Revisted\FormsCalculator\FormsCalculator\obj\Debug\FormsCalculator.pdb
-C:\Users\CyberFreak\Documents\Projects\.NET learning\Windows Forms Revisted\FormsCalculator\FormsCalculator\obj\Debug\FormsCalculator.Karthika_kanakk_kooti_yenthram.resources
+C:\Users\CyberFreak\Documents\Projects\.NET learning\Windows Forms Revisted\FormsCalculator\FormsCalculator\obj\Debug\FormsCalculator.calcapp.resources

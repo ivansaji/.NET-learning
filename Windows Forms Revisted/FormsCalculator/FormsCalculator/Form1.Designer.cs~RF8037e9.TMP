@@ -59,6 +59,7 @@
             this.mnuPaste = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripSeparator();
             this.undoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.changeBackground = new System.Windows.Forms.OpenFileDialog();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -337,6 +338,11 @@
             this.undoToolStripMenuItem.Text = "Undo";
             this.undoToolStripMenuItem.Click += new System.EventHandler(this.undoToolStripMenuItem_Click);
             // 
+            // changeBackground
+            // 
+            this.changeBackground.FileName = "openFileDialog1";
+            this.changeBackground.FileOk += new System.ComponentModel.CancelEventHandler(this.changeBackground_FileOk);
+            // 
             // calcapp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -406,6 +412,7 @@
         private System.Windows.Forms.ToolStripMenuItem mnuPaste;
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem undoToolStripMenuItem;
+        private System.Windows.Forms.OpenFileDialog changeBackground;
     }
 }
 
