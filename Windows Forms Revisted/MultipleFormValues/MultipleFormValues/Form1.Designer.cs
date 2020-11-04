@@ -28,17 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtChangeCase = new System.Windows.Forms.TextBox();
             this.changeCase = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox1
+            // txtChangeCase
             // 
-            this.textBox1.Location = new System.Drawing.Point(158, 85);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(303, 20);
-            this.textBox1.TabIndex = 0;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.txtChangeCase.Location = new System.Drawing.Point(158, 85);
+            this.txtChangeCase.Name = "txtChangeCase";
+            this.txtChangeCase.Size = new System.Drawing.Size(303, 20);
+            this.txtChangeCase.TabIndex = 0;
+            this.txtChangeCase.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // changeCase
             // 
@@ -56,7 +56,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.changeCase);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtChangeCase);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -67,7 +67,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtChangeCase;
         private System.Windows.Forms.Button changeCase;
     }
 }
