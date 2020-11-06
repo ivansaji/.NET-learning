@@ -21,41 +21,71 @@ namespace Employee_Database
     
         string new_entry = null;
         string query_string = null;
+        SqlConnection con = null;
         //Supporting methods
-        private void db_operation(string data, int fun)
+        private void db_conn()
         {
-            SqlConnection con = null;
+            
             try
             {
                 con = new SqlConnection("data source =.; database=Employee; integrated security=SSPI");
                 //Opening Connection
                 con.Open();
-                MessageBox.Show("Connection Established");
-
-                if(fun == 1)
-                {
-                    query_string = "insert into Employee_List (name) values (" + data + ")";
-                    SqlCommand cm = new SqlCommand(query_string, con);
-                    cm.ExecuteNonQuery();
-                    MessageBox("Added Successfully");
-                }
+                //MessageBox.Show("Connection Established");
             }
             catch (Exception e)
             {
                 MessageBox.Show("Not Connected to DB  " + e);
             }
+
+        }
+
+        private void add_Employee(string data)
+        {
+            //Add Data to DB
+            db_conn();
+            query_string = "insert into Employee_List (name) values ('" + data + "');";
+            SqlCommand cm = new SqlCommand(query_string, con);
+            cm.ExecuteNonQuery();
+            MessageBox.Show("Added Successfully");
+            con.Close();
+        }
+        private void get_detail()
+        {
+            //Retrieve data
+            db_conn();
+            query_string = "select * from Employee_list";
+            SqlCommand cm = new SqlCommand(query_string, con);
+            SqlDataReader sdr = cm.ExecuteReader();
+            //Iterating through data
+            while (sdr.Read())
+            {
+                listBox.Items.Add(sdr["name"]);
+            }
+            con.Close();
         }
 
         public Form1()
         {
             InitializeComponent();
             listBox.Items.Clear();
+            get_detail();
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
             new_entry = txtBox.Text;
-            db_operation(new_entry,1);
+            add_Employee(new_entry);
+            txtBox.Clear();
+            listBox.Items.Clear();
+            get_detail();
+        }
+
+        private void btnQuit_Click(object sender, EventArgs e)
+        {
+            
+            MessageBox.Show("Application Closed Successfully");
+            Application.Exit();
         }
     }
 }

@@ -31,6 +31,7 @@
             this.listBox = new System.Windows.Forms.ListBox();
             this.txtBox = new System.Windows.Forms.TextBox();
             this.btnAdd = new System.Windows.Forms.Button();
+            this.btnQuit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // listBox
@@ -58,11 +59,22 @@
             this.btnAdd.UseVisualStyleBackColor = true;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
+            // btnQuit
+            // 
+            this.btnQuit.Location = new System.Drawing.Point(352, 135);
+            this.btnQuit.Name = "btnQuit";
+            this.btnQuit.Size = new System.Drawing.Size(75, 23);
+            this.btnQuit.TabIndex = 3;
+            this.btnQuit.Text = "Quit";
+            this.btnQuit.UseVisualStyleBackColor = true;
+            this.btnQuit.Click += new System.EventHandler(this.btnQuit_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnQuit);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.txtBox);
             this.Controls.Add(this.listBox);
@@ -78,6 +90,7 @@
         private System.Windows.Forms.ListBox listBox;
         private System.Windows.Forms.TextBox txtBox;
         private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.Button btnQuit;
     }
 }
 
