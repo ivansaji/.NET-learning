@@ -1,0 +1,10 @@
+C:\Users\CyberFreak\Documents\Projects\.NET learning\Windows Forms + Database\Employee_Database\Employee_Database\bin\Debug\Employee_Database.exe.config
+C:\Users\CyberFreak\Documents\Projects\.NET learning\Windows Forms + Database\Employee_Database\Employee_Database\bin\Debug\Employee_Database.exe
+C:\Users\CyberFreak\Documents\Projects\.NET learning\Windows Forms + Database\Employee_Database\Employee_Database\bin\Debug\Employee_Database.pdb
+C:\Users\CyberFreak\Documents\Projects\.NET learning\Windows Forms + Database\Employee_Database\Employee_Database\obj\Debug\Employee_Database.csprojAssemblyReference.cache
+C:\Users\CyberFreak\Documents\Projects\.NET learning\Windows Forms + Database\Employee_Database\Employee_Database\obj\Debug\Employee_Database.Form1.resources
+C:\Users\CyberFreak\Documents\Projects\.NET learning\Windows Forms + Database\Employee_Database\Employee_Database\obj\Debug\Employee_Database.Properties.Resources.resources
+C:\Users\CyberFreak\Documents\Projects\.NET learning\Windows Forms + Database\Employee_Database\Employee_Database\obj\Debug\Employee_Database.csproj.GenerateResource.cache
+C:\Users\CyberFreak\Documents\Projects\.NET learning\Windows Forms + Database\Employee_Database\Employee_Database\obj\Debug\Employee_Database.csproj.CoreCompileInputs.cache
+C:\Users\CyberFreak\Documents\Projects\.NET learning\Windows Forms + Database\Employee_Database\Employee_Database\obj\Debug\Employee_Database.exe
+C:\Users\CyberFreak\Documents\Projects\.NET learning\Windows Forms + Database\Employee_Database\Employee_Database\obj\Debug\Employee_Database.pdb

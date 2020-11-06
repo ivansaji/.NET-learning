@@ -15,14 +15,18 @@ namespace Employee_Database
         /// <summary>
         /// 
         /// </summary>
+        string new_entry = null;
+
         public Form1()
         {
             InitializeComponent();
+            listBox.Items.Clear();
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-
+            new_entry = txtBox.Text;
+            listBox.Items.Add(new_entry);
         }
     }
 }
