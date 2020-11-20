@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 
 namespace EmployeeManagement
 {
@@ -27,7 +28,7 @@ namespace EmployeeManagement
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILogger<Startup> logger)
         {
             if (env.IsDevelopment())
             {
@@ -56,12 +57,30 @@ namespace EmployeeManagement
             */
 
             //Using app.run for learning as per KudVenkat
-
+             
+            //Middleware 1
+            app.Use(async (context , next) =>
+            {
+                logger.LogInformation("Middleware 1 : Incoming Request");
+                await context.Response.WriteAsync("Middleware 1");
+                await next();
+                logger.LogInformation("Middleware 1 : Outgoing Response");
+            });
+            //Middleware 2
+            app.Use(async (context, next) =>
+            {
+                logger.LogInformation("Middleware 2 : Incoming Request");
+                await context.Response.WriteAsync("Middleware 2");
+                await next();
+                logger.LogInformation("Middleware 2 : Outgoing Response");
+            });
+            //Middleware 3
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello da");
-            }
-            );
+                await context.Response.WriteAsync("Middleware 3 : Request Handled");
+                logger.LogInformation("Middleware 3 : Request Handled");
+            });
+
         } 
     }
 }
