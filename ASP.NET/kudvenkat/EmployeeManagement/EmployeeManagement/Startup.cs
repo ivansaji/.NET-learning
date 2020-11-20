@@ -36,20 +36,32 @@ namespace EmployeeManagement
 
             app.UseRouting();
 
+            // The commented part is the default functionality. So used app.Run as per tutorial for learning
+
+            /*
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    //await context.Response.WriteAsync("Hello World!");
-
                     //Print the process name on web
                     //await context.Response.WriteAsync(System.Diagnostics.Process.GetCurrentProcess().ProcessName);
 
                     //Accessing Appsettings.Json
-                    await context.Response.WriteAsync(_config["MyKey"]);
+                    //await context.Response.WriteAsync(_config["MyKey"]);
 
+                    await context.Response.WriteAsync("Hello World!");
                 });
             });
-        }
+
+            */
+
+            //Using app.run for learning as per KudVenkat
+
+            app.Run(async (context) =>
+            {
+                await context.Response.WriteAsync("Hello da");
+            }
+            );
+        } 
     }
 }
