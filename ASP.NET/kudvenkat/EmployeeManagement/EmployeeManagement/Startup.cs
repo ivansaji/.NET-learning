@@ -56,9 +56,16 @@ namespace EmployeeManagement
             */
 
             //Default Files enable
-            app.UseDefaultFiles();
+            //app.UseDefaultFiles();
             //Static Files Middleware
-            app.UseStaticFiles();
+            //app.UseStaticFiles();
+
+            // Alternate method
+            FileServerOptions fileServerOptions = new FileServerOptions();
+            fileServerOptions.DefaultFilesOptions.DefaultFileNames.Clear();
+            fileServerOptions.DefaultFilesOptions.DefaultFileNames.Add("foo.html");
+            app.UseFileServer(fileServerOptions);
+
 
             //Using app.run for learning as per KudVenkat
              
