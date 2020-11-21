@@ -54,24 +54,15 @@ namespace EmployeeManagement
             });
 
             */
-
-            //Default Files enable
-            //app.UseDefaultFiles();
-            //Static Files Middleware
-            //app.UseStaticFiles();
-
-            // Alternate method
-            FileServerOptions fileServerOptions = new FileServerOptions();
-            fileServerOptions.DefaultFilesOptions.DefaultFileNames.Clear();
-            fileServerOptions.DefaultFilesOptions.DefaultFileNames.Add("foo.html");
-            app.UseFileServer(fileServerOptions);
-
+            app.UseFileServer();
 
             //Using app.run for learning as per KudVenkat
              
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello World");
+                //This throws an exception if Filesrver middleware does not execute properly
+        
+                throw new Exception("Some Error");
             });
 
         } 
