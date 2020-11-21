@@ -24,6 +24,8 @@ namespace EmployeeManagement
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            //services.AddMvc();
+            services.AddMvc(option => option.EnableEndpointRouting = false);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -34,7 +36,6 @@ namespace EmployeeManagement
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseRouting();
 
             // The commented part is the default functionality. So used app.Run as per tutorial for learning
 
@@ -54,15 +55,18 @@ namespace EmployeeManagement
             });
 
             */
-            app.UseFileServer();
+            app.UseRouting();
+            
+            //MVC Session
+            app.UseStaticFiles();
+            //MVC MiddleWare
+            app.UseMvcWithDefaultRoute();
 
             //Using app.run for learning as per KudVenkat
-             
+
             app.Run(async (context) =>
             {
-                //This throws an exception if Filesrver middleware does not execute properly
-        
-                throw new Exception("Some Error");
+                await context.Response.WriteAsync("Hello World");
             });
 
         } 
