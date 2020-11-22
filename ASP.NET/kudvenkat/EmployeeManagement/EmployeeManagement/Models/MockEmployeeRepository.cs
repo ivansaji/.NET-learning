@@ -11,6 +11,7 @@ namespace EmployeeManagement.Models
 
         public MockEmployeeRepository()
         {
+            // basic data stored as _employeeList
             _employeeList = new List<Employee>()
             {
                 new Employee() {Id=1, Name="Ivin", Email="ivin@gmail.com", Department="HR"},
@@ -19,7 +20,9 @@ namespace EmployeeManagement.Models
             };
         }
         public Employee GetEmployee(int Id)
+
         {
+            //the call from Iemployee reaches here and fetches data and returns reqd data
             return _employeeList.FirstOrDefault(e => e.Id == Id);
         }
     }

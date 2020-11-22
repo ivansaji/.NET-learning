@@ -11,12 +11,16 @@ namespace EmployeeManagement.Controllers
     {
         private IEmployeeRepository _employeeRepository;
 
+        //homecontroller creates an instance of IEmployeeRepository as parameter where a call is done to Iemploy....
+        //Rest in IEmployee
         public HomeController(IEmployeeRepository employeeRepository)
         {
+            
             _employeeRepository = employeeRepository;
         }
         public string Index()
         {
+            //change Id in GetEmployee(id) to get reqd data
             return _employeeRepository.GetEmployee(1).Name;
         }
     }
