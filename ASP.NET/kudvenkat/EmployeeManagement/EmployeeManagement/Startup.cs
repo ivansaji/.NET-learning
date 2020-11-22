@@ -19,7 +19,9 @@ namespace EmployeeManagement
         public void ConfigureServices(IServiceCollection services)
         {
             //services.AddMvc();
-            services.AddMvc(option => option.EnableEndpointRouting = false);
+            //services.AddMvc(option => option.EnableEndpointRouting = false); 
+
+            services.AddMvc(option => option.EnableEndpointRouting = false).AddXmlSerializerFormatters();
             //Model Service
             services.AddSingleton<IEmployeeRepository, MockEmployeeRepository>();
         }

@@ -18,3 +18,14 @@ C:\Users\CyberFreak\Documents\Projects\.NET learning\ASP.NET\kudvenkat\EmployeeM
 C:\Users\CyberFreak\Documents\Projects\.NET learning\ASP.NET\kudvenkat\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.dll
 C:\Users\CyberFreak\Documents\Projects\.NET learning\ASP.NET\kudvenkat\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.pdb
 C:\Users\CyberFreak\Documents\Projects\.NET learning\ASP.NET\kudvenkat\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.genruntimeconfig.cache
+C:\Users\CyberFreak\Documents\Projects\.NET learning\ASP.NET\kudvenkat\EmployeeManagement\EmployeeManagement\bin\Debug\netcoreapp3.1\EmployeeManagement.Views.dll
+C:\Users\CyberFreak\Documents\Projects\.NET learning\ASP.NET\kudvenkat\EmployeeManagement\EmployeeManagement\bin\Debug\netcoreapp3.1\EmployeeManagement.Views.pdb
+C:\Users\CyberFreak\Documents\Projects\.NET learning\ASP.NET\kudvenkat\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.RazorAssemblyInfo.cache
+C:\Users\CyberFreak\Documents\Projects\.NET learning\ASP.NET\kudvenkat\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.RazorAssemblyInfo.cs
+C:\Users\CyberFreak\Documents\Projects\.NET learning\ASP.NET\kudvenkat\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.TagHelpers.input.cache
+C:\Users\CyberFreak\Documents\Projects\.NET learning\ASP.NET\kudvenkat\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.TagHelpers.output.cache
+C:\Users\CyberFreak\Documents\Projects\.NET learning\ASP.NET\kudvenkat\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.RazorCoreGenerate.cache
+C:\Users\CyberFreak\Documents\Projects\.NET learning\ASP.NET\kudvenkat\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Home\Details.cshtml.g.cs
+C:\Users\CyberFreak\Documents\Projects\.NET learning\ASP.NET\kudvenkat\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.RazorTargetAssemblyInfo.cs
+C:\Users\CyberFreak\Documents\Projects\.NET learning\ASP.NET\kudvenkat\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.Views.pdb
+C:\Users\CyberFreak\Documents\Projects\.NET learning\ASP.NET\kudvenkat\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.csproj.CopyComplete

@@ -16,12 +16,17 @@ namespace EmployeeManagement.Controllers
         public HomeController(IEmployeeRepository employeeRepository)
         {
             
-            _employeeRepository = employeeRepository;
+            _employeeRepository = employeeRepository; 
         }
         public string Index()
         {
             //change Id in GetEmployee(id) to get reqd data
             return _employeeRepository.GetEmployee(1).Name;
+        }
+        public ViewResult Details()
+        {
+            Employee model = _employeeRepository.GetEmployee(1);
+            return View(model);
         }
     }
 }
