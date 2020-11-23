@@ -4,5 +4,18 @@
 </head>
 <body>
     <h1>Details.cshtml form Views/Home/</h1>
+    <br />
+    <h3>@ViewData["PageTitle"]</h3>
+
+    @{ 
+        var employee = ViewData["Employee"] as EmployeeManagement.Models.Employee;
+    }
+    <div>
+        Name : @employee.Name
+        <br />
+        Email : @employee.Email
+        <br />
+        Department : @employee.Department
+    </div>
 </body>
 </html>
