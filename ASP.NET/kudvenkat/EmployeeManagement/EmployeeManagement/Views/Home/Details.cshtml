@@ -1,4 +1,8 @@
-﻿<html xmlns="http://www.w3.org/1999/xhtml">
+﻿<!--This next line makes it a strongly typed view
+    It also adds intelisens-->
+@model EmployeeManagement.Models.Employee
+
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title></title>
 </head>
@@ -9,11 +13,11 @@
 
 
     <div>
-        Name : @ViewBag.employee.Name
+        Name : @Model.Name
         <br />
-        Email : @ViewBag.employee.Email
+        Email : @Model.Email
         <br />
-        Department : @ViewBag.employee.Department
+        Department : @Model.Department
     </div>
 </body>
 </html>
