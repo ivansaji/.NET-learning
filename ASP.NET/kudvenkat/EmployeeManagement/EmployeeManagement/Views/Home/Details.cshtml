@@ -1,6 +1,6 @@
 ﻿<!--This next line makes it a strongly typed view
     It also adds intelisens-->
-@model EmployeeManagement.Models.Employee
+@model EmployeeManagement.ViewModels.HomeDetailsViewModel
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -9,15 +9,14 @@
 <body>
     <h1>Details.cshtml form Views/Home/</h1>
     <br />
-    <h3>@ViewBag.PageTitle</h3>
-
+    <h3>@Model.PageTitle</h3>
 
     <div>
-        Name : @Model.Name
+        Name : @Model.Employee.Name
         <br />
-        Email : @Model.Email
+        Email : @Model.Employee.Email
         <br />
-        Department : @Model.Department
+        Department : @Model.Employee.Department
     </div>
 </body>
 </html>
