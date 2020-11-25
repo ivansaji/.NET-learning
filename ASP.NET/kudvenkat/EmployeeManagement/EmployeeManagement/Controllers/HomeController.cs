@@ -19,10 +19,11 @@ namespace EmployeeManagement.Controllers
             
             _employeeRepository = employeeRepository; 
         }
-        public string Index()
+        public ViewResult Index()
         {
             //change Id in GetEmployee(id) to get reqd data
-            return _employeeRepository.GetEmployee(1).Name;
+            var model = _employeeRepository.GetAllEmployee();
+            return View(model);
         }
         public ViewResult Details()
         {
