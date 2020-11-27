@@ -58,7 +58,15 @@ namespace EmployeeManagement
             //MVC Session
             app.UseStaticFiles();
             //MVC MiddleWare
-            app.UseMvcWithDefaultRoute();
+            //app.UseMvcWithDefaultRoute();
+
+            //MVC middleware providing custom routes
+            app.UseMvc(routes =>
+            {
+                //{controller=Home}/{action=Index} sets the default value
+                routes.MapRoute("default", "{controller=Home}/{action=Index}/{id?}");
+            });
+
 
             //Using app.run for learning as per KudVenkat
 
