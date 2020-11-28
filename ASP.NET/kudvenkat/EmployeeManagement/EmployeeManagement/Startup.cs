@@ -60,12 +60,18 @@ namespace EmployeeManagement
             //MVC MiddleWare
             //app.UseMvcWithDefaultRoute();
 
-            //MVC middleware providing custom routes
+            //MVC middleware providing custom routes(Conventional Routing_
+            /*
             app.UseMvc(routes =>
             {
                 //{controller=Home}/{action=Index} sets the default value
                 routes.MapRoute("default", "{controller=Home}/{action=Index}/{id?}");
             });
+
+            */
+
+            //Atribute Route
+            app.UseMvc();
 
 
             //Using app.run for learning as per KudVenkat
