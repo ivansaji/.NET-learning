@@ -4,11 +4,13 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
+    <link href="~/lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
 </head>
 <body>
-    <div>
+    <div class="container">
         @RenderBody()
     </div>
     @RenderSection("Scripts", required:false)
 </body>
 </html>
+<script src="~/lib/bootstrap/js/bootstrap.js"></script>

@@ -21,9 +21,7 @@ namespace EmployeeManagement.Controllers
         }
 
         //attribute route
-        [Route("Home")]
-        [Route("Home/Index")]
-        [Route("")]
+
         public ViewResult Index()
         {
             //change Id in GetEmployee(id) to get reqd data
@@ -32,7 +30,7 @@ namespace EmployeeManagement.Controllers
         }
 
         //attribute route
-        [Route("Home/Details/{Id ?}")]
+
          public ViewResult Details(int Id)
         {
             HomeDetailsViewModel homeDetailsViewModel = new HomeDetailsViewModel()
