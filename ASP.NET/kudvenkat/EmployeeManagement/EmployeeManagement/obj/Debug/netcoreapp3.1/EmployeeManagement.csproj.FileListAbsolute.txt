@@ -33,3 +33,4 @@ C:\Users\CyberFreak\Documents\Projects\.NET learning\ASP.NET\kudvenkat\EmployeeM
 C:\Users\CyberFreak\Documents\Projects\.NET learning\ASP.NET\kudvenkat\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\CyberFreak\Documents\Projects\.NET learning\ASP.NET\kudvenkat\EmployeeManagement\EmployeeManagement\bin\Debug\netcoreapp3.1\libman.json
 C:\Users\CyberFreak\Documents\Projects\.NET learning\ASP.NET\kudvenkat\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ViewImports.cshtml.g.cs
+C:\Users\CyberFreak\Documents\Projects\.NET learning\ASP.NET\kudvenkat\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Home\Create.cshtml.g.cs

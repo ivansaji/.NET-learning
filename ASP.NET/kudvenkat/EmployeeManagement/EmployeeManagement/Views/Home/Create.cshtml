@@ -1,0 +1,28 @@
+﻿@model EmployeeManagement.ViewModels.HomeDetailsViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Details Page";
+}
+
+<form asp-controller="Home" asp-action="Create" method="post">
+    <div>
+        <label asp-for="Name">Name</label>
+        <input asp-for="Name" />
+    </div>
+    <div>
+        <label asp-for="Email">Email</label>
+        <input asp-for="Email" />
+    </div>
+    <div>
+        <label asp-for="Department">Department</label>
+        <select asp-for="Department">
+            <option value="None">None</option>
+            <option value="IT">IT</option>
+            <option value="HR">HR</option>
+        </select>
+    </div>
+    <div>
+        <button type="submit">Create</button>
+    </div>
+</form>
