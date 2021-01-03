@@ -11,6 +11,8 @@ namespace RazorPagesTutorial.Pages
     public class IndexModel : PageModel
     {
         private readonly ILogger<IndexModel> _logger;
+        //our code
+        public string Message { get; set; }
 
         public IndexModel(ILogger<IndexModel> logger)
         {
@@ -19,7 +21,7 @@ namespace RazorPagesTutorial.Pages
 
         public void OnGet()
         {
-
+            Message = "Hello Ivan " + DateTime.Now.ToLongDateString();
         }
     }
 }
