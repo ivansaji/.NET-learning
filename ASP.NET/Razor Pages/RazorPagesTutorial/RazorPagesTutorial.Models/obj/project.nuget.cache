@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "J+zvYdfQ/reppvedFqplrzxG7b3mwtwDh6AFn10kfc+ntayVteYGCezBsrW9Z7lCMmJ1oxP0OE7V+Oa13iPhJA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\CyberFreak\\Documents\\Projects\\.NET learning\\ASP.NET\\Razor Pages\\RazorPagesTutorial\\RazorPagesTutorial.Models\\RazorPagesTutorial.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\CyberFreak\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\CyberFreak\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
