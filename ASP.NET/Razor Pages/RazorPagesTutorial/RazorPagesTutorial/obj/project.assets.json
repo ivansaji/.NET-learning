@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "RazorPagesTutorial.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/RazorPagesTutorial.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RazorPagesTutorial.Models.dll": {}
+        }
+      },
+      "RazorPagesTutorial.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RazorPagesTutorial.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RazorPagesTutorial.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RazorPagesTutorial.Services.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "RazorPagesTutorial.Models/1.0.0": {
+      "type": "project",
+      "path": "../RazorPagesTutorial.Models/RazorPagesTutorial.Models.csproj",
+      "msbuildProject": "../RazorPagesTutorial.Models/RazorPagesTutorial.Models.csproj"
+    },
+    "RazorPagesTutorial.Services/1.0.0": {
+      "type": "project",
+      "path": "../RazorPagesTutorial.Services/RazorPagesTutorial.Services.csproj",
+      "msbuildProject": "../RazorPagesTutorial.Services/RazorPagesTutorial.Services.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "RazorPagesTutorial.Models >= 1.0.0",
+      "RazorPagesTutorial.Services >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\CyberFreak\\.nuget\\packages\\": {}
@@ -32,7 +70,14 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\CyberFreak\\Documents\\Projects\\.NET learning\\ASP.NET\\Razor Pages\\RazorPagesTutorial\\RazorPagesTutorial.Models\\RazorPagesTutorial.Models.csproj": {
+              "projectPath": "C:\\Users\\CyberFreak\\Documents\\Projects\\.NET learning\\ASP.NET\\Razor Pages\\RazorPagesTutorial\\RazorPagesTutorial.Models\\RazorPagesTutorial.Models.csproj"
+            },
+            "C:\\Users\\CyberFreak\\Documents\\Projects\\.NET learning\\ASP.NET\\Razor Pages\\RazorPagesTutorial\\RazorPagesTutorial.Services\\RazorPagesTutorial.Services.csproj": {
+              "projectPath": "C:\\Users\\CyberFreak\\Documents\\Projects\\.NET learning\\ASP.NET\\Razor Pages\\RazorPagesTutorial\\RazorPagesTutorial.Services\\RazorPagesTutorial.Services.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

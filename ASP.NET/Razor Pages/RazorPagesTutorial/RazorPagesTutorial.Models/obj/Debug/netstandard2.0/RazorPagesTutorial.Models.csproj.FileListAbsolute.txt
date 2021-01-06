@@ -1,0 +1,9 @@
+C:\Users\CyberFreak\Documents\Projects\.NET learning\ASP.NET\Razor Pages\RazorPagesTutorial\RazorPagesTutorial.Models\bin\Debug\netstandard2.0\RazorPagesTutorial.Models.deps.json
+C:\Users\CyberFreak\Documents\Projects\.NET learning\ASP.NET\Razor Pages\RazorPagesTutorial\RazorPagesTutorial.Models\bin\Debug\netstandard2.0\RazorPagesTutorial.Models.dll
+C:\Users\CyberFreak\Documents\Projects\.NET learning\ASP.NET\Razor Pages\RazorPagesTutorial\RazorPagesTutorial.Models\bin\Debug\netstandard2.0\RazorPagesTutorial.Models.pdb
+C:\Users\CyberFreak\Documents\Projects\.NET learning\ASP.NET\Razor Pages\RazorPagesTutorial\RazorPagesTutorial.Models\obj\Debug\netstandard2.0\RazorPagesTutorial.Models.csprojAssemblyReference.cache
+C:\Users\CyberFreak\Documents\Projects\.NET learning\ASP.NET\Razor Pages\RazorPagesTutorial\RazorPagesTutorial.Models\obj\Debug\netstandard2.0\RazorPagesTutorial.Models.AssemblyInfoInputs.cache
+C:\Users\CyberFreak\Documents\Projects\.NET learning\ASP.NET\Razor Pages\RazorPagesTutorial\RazorPagesTutorial.Models\obj\Debug\netstandard2.0\RazorPagesTutorial.Models.AssemblyInfo.cs
+C:\Users\CyberFreak\Documents\Projects\.NET learning\ASP.NET\Razor Pages\RazorPagesTutorial\RazorPagesTutorial.Models\obj\Debug\netstandard2.0\RazorPagesTutorial.Models.csproj.CoreCompileInputs.cache
+C:\Users\CyberFreak\Documents\Projects\.NET learning\ASP.NET\Razor Pages\RazorPagesTutorial\RazorPagesTutorial.Models\obj\Debug\netstandard2.0\RazorPagesTutorial.Models.dll
+C:\Users\CyberFreak\Documents\Projects\.NET learning\ASP.NET\Razor Pages\RazorPagesTutorial\RazorPagesTutorial.Models\obj\Debug\netstandard2.0\RazorPagesTutorial.Models.pdb
