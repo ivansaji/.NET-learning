@@ -41,3 +41,4 @@ C:\Users\CyberFreak\Documents\Projects\.NET learning\ASP.NET\Razor Pages\RazorPa
 C:\Users\CyberFreak\Documents\Projects\.NET learning\ASP.NET\Razor Pages\RazorPagesTutorial\RazorPagesTutorial\bin\Debug\netcoreapp3.1\RazorPagesTutorial.Models.pdb
 C:\Users\CyberFreak\Documents\Projects\.NET learning\ASP.NET\Razor Pages\RazorPagesTutorial\RazorPagesTutorial\bin\Debug\netcoreapp3.1\RazorPagesTutorial.Services.pdb
 C:\Users\CyberFreak\Documents\Projects\.NET learning\ASP.NET\Razor Pages\RazorPagesTutorial\RazorPagesTutorial\obj\Debug\netcoreapp3.1\Razor\Pages\Employees\Details.cshtml.g.cs
+C:\Users\CyberFreak\Documents\Projects\.NET learning\ASP.NET\Razor Pages\RazorPagesTutorial\RazorPagesTutorial\obj\Debug\netcoreapp3.1\Razor\Pages\NotFound.cshtml.g.cs
