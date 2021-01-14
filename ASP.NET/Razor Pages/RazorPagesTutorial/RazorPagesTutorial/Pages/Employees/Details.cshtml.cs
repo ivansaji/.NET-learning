@@ -28,7 +28,6 @@ namespace RazorPagesTutorial.Pages.Employees
             {
                 return RedirectToPage("/NotFound");
             }
-
             return Page();
         }
     }
