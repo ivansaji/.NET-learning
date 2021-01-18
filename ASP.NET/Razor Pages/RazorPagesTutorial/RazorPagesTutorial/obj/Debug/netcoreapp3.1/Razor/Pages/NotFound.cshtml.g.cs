@@ -19,8 +19,15 @@ using RazorPagesTutorial;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 5 "C:\Users\CyberFreak\Documents\Projects\.NET learning\ASP.NET\Razor Pages\RazorPagesTutorial\RazorPagesTutorial\Pages\_ViewImports.cshtml"
+using RazorPagesTutorial.Models;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"605a02573247ba1515dfaf3b615141ccaccd6c11", @"/Pages/NotFound.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0528aad3caa1f40183726f0fca2507560c5d2536", @"/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7a57e821cc34d4717eb3b236d27b6c5aaea81b8a", @"/Pages/_ViewImports.cshtml")]
     public class Pages_NotFound : global::Microsoft.AspNetCore.Mvc.RazorPages.Page
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-page", "/Employees/Index", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -58,7 +65,7 @@ using RazorPagesTutorial;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n<h1>The Page you are looking for cannot be found</h1>\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "605a02573247ba1515dfaf3b615141ccaccd6c113987", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "605a02573247ba1515dfaf3b615141ccaccd6c114238", async() => {
                 WriteLiteral("Click here to get back to home");
             }
             );
