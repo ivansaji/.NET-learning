@@ -27,6 +27,10 @@ namespace RazorPagesTutorial.Pages.Employees
         public IFormFile Photo { get; set; }
         public Employee Employee { get; private set; }
 
+        [BindProperty]
+        public bool Notify { get; set; }
+        public string Message { get; set; }
+
         public IActionResult OnGet(int id)
         {
             Employee = employeeRepository.GetEmployee(id);
@@ -52,6 +56,20 @@ namespace RazorPagesTutorial.Pages.Employees
 
             Employee = employeeRepository.Update(employee);
             return RedirectToPage("Index");
+        }
+
+        public void OnPostUpdateNotificationPreferences(int id)
+        {
+            if (Notify)
+            {
+                Message = "Thank you for turning on notifications";
+            }
+            else
+            {
+                Message = "Turned off Notifications";
+            }
+
+            Employee = employeeRepository.GetEmployee(id);
         }
 
         private string ProcessUploadedFile()
